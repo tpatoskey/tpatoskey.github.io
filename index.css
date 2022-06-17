@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main_container{
+    width: 70%;
+    height: 30rem;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.first_box{
+    width: 15rem;
+    height: 24rem;
+    background-color: hsl(31, 77%, 52%);
+    border: 3px;
+    border-radius: 3px;
+    padding: 2rem;
+}
+.first_box h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    color: white;
+}
+.first_box p{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 1.5rem;
+    color: white;
+    font-size: 1rem;
+}
+.first_box button{
+    width: 9rem;
+    height: 2rem;
+    margin-top: 1.3rem;
+    color: hsl(31, 77%, 52%);
+    border-radius: 2rem;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border: none;
+}
+.first_box button:hover{
+    background-color:hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+
+
+.second_box{
+    width: 15rem;
+    height: 24rem;
+    background-color: hsl(184, 100%, 22%);
+    border: 3px;
+    border-radius: 3px;
+    padding: 2rem;
+}
+.second_box h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    color: white;
+}
+.second_box p{
+    margin-top: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+.second_box button{
+    width: 9rem;
+    height: 2rem;
+    margin-top: 2.5rem;
+    color: hsl(184, 100%, 22%);
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 2rem;
+    border: none;
+}
+.second_box button:hover{
+    background-color:hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.third_box{
+    width: 15rem;
+    height: 24rem;
+    background-color: hsl(179, 100%, 13%);
+    border: 3px;
+    border-radius: 3px;
+    padding: 2rem;
+}
+.third_box h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    color: white;
+}
+.third_box p{
+    margin-top: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+.third_box button{
+    width: 9rem;
+    height: 2rem;
+    margin-top: 2.5rem;
+    color: hsl(179, 100%, 13%);
+    background-color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 2rem;
+    border: none;
+}
+.third_box button:hover{
+    background-color:hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
